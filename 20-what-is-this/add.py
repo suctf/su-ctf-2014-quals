@@ -1,0 +1,4 @@
+from PIL import Image
+im1 = Image.open('pic1.jpg')
+im2 = Image.open('pic2.jpg')
+Image.blend(im1,im2,0.5).save('out.jpg')
